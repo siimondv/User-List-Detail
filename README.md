@@ -30,11 +30,12 @@ There are 3 main modules in the project:
 2. **Version catalog** is used for dependency management
 3. Dependency injection is handled using [Hilt](https://developer.android.com/training/dependency-injection/hilt-android)
 4. Network requests are managed using [Retrofit](https://square.github.io/retrofit/) for API communication
-5. UI components are built using **Fragments**
-6. Navigation between screens is handled via **Android Navigation Component**
-7. The user list is displayed using **RecyclerView**
-8. Image loading and caching is done with [Glide](https://github.com/bumptech/glide)
-9. Toast messages are implemented using [Toasty](https://github.com/GrenderG/Toasty)
+5. **Coroutines** for asynchronous programming
+6. UI components are built using **Fragments**
+7. Navigation between screens is handled via **Android Navigation Component**
+8. The user list is displayed using **RecyclerView**
+9. Image loading and caching is done with [Glide](https://github.com/bumptech/glide)
+10. Toast messages are implemented using [Toasty](https://github.com/GrenderG/Toasty)
 
 ## API
 The used api to get the users :  http://api.football-data.org/v4/](https://api.github.com/repos/
