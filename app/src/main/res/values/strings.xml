@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ListDetail</string>
+
+    <!-- user item view -->
+    <string name="text_value_username">name</string>
+    <string name="text_value_type">type:</string>
+    <string name="text_value_contribution_count">contribution count:</string>
+    <string name="user_list">user list</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/_8sdp"
+    app:cardCornerRadius="@dimen/_6sdp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="@dimen/_7sdp">
+
+        <ImageView
+            android:id="@+id/userImageView"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginHorizontal="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:src="@drawable/user" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="@dimen/_2sdp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/userNameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alexandria_regular"
+                android:maxLines="1"
+                android:text="@string/text_value_username"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp" />
+
+            <TextView
+                android:id="@+id/userTypeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:fontFamily="@font/alexandria_regular"
+                android:text="@string/text_value_type"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/userContributionCountTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:fontFamily="@font/alexandria_regular"
+                android:text="@string/text_value_contribution_count"
+                android:textSize="@dimen/_10ssp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
